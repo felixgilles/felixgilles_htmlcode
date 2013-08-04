@@ -21,7 +21,7 @@ return array(
         'felixgilles_htmlcode' => array(
             'title' => 'HTML Code',
             'desc'  => 'Insert HTML Code into WYSIWYG',
-            'enhancer' => 'felixgilles_htmlcode/front/main',
+            'enhancer' => 'felixgilles_htmlcode/front/index',
             'previewUrl' => 'admin/felixgilles_htmlcode/enhancer/preview',
             'dialog' => array(
                 'contentUrl' => 'admin/felixgilles_htmlcode/enhancer/popup',

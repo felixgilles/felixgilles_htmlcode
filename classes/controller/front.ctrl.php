@@ -13,7 +13,7 @@ use Nos\Controller_Front_Application;
 
 class Controller_Front extends Controller_Front_Application
 {
-    public function action_main($args = array())
+    public function action_index($args = array())
     {
         $html_code = \Arr::get($args, 'html_code', '');
 
